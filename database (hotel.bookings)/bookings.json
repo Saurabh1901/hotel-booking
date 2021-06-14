@@ -1,0 +1,113 @@
+[{
+  "_id": {
+    "$oid": "60c6e0ec81e412f3e603f267"
+  },
+  "hotel": {
+    "$oid": "60c5fe5e4a7e60759fb2bcbf"
+  },
+  "bookedBy": {
+    "$oid": "60c6753881e412f3e603f265"
+  },
+  "bookedOn": {
+    "$date": "2020-12-31T18:30:00Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c6e3ee2a5d240c5e45d5ff"
+  },
+  "hotel": {
+    "$oid": "60c671f981e412f3e603f263"
+  },
+  "bookedBy": {
+    "$oid": "60c6761e81e412f3e603f266"
+  },
+  "bookedOn": {
+    "$date": "2020-10-21T18:30:00Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c6e8bc4ca2df0ee038feca"
+  },
+  "hotel": {
+    "$oid": "60c6735281e412f3e603f264"
+  },
+  "bookedBy": {
+    "$oid": "60c6761e81e412f3e603f266"
+  },
+  "bookedOn": {
+    "$date": "2021-12-02T18:30:00Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c6eee990315c104117931d"
+  },
+  "hotel": {
+    "$oid": "60c5ff934a7e60759fb2bcc1"
+  },
+  "bookedBy": {
+    "$oid": "60c6eed790315c104117931c"
+  },
+  "bookedOn": {
+    "$date": "2022-02-28T18:30:00Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c6f3db4f410b12d8ed4d68"
+  },
+  "hotel": {
+    "$oid": "60c5fe5e4a7e60759fb2bcbf"
+  },
+  "bookedBy": {
+    "$oid": "60c6f3d24f410b12d8ed4d67"
+  },
+  "bookedOn": {
+    "$date": "2021-03-31T18:30:00Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c6f8c7369bf31632a30bc2"
+  },
+  "hotel": {
+    "$oid": "60c5ff204a7e60759fb2bcc0"
+  },
+  "bookedBy": {
+    "$oid": "60c6f8c1369bf31632a30bc1"
+  },
+  "bookedOn": {
+    "$date": "2020-12-31T18:30:00Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c6fbe9369bf31632a30bc3"
+  },
+  "hotel": {
+    "$oid": "60c5ff204a7e60759fb2bcc0"
+  },
+  "bookedBy": {
+    "$oid": "60c6753881e412f3e603f265"
+  },
+  "bookedOn": {
+    "$date": "2021-05-01T18:30:00Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c6fc35369bf31632a30bc4"
+  },
+  "hotel": {
+    "$oid": "60c5ff934a7e60759fb2bcc1"
+  },
+  "bookedBy": {
+    "$oid": "60c6761e81e412f3e603f266"
+  },
+  "bookedOn": {
+    "$date": "2021-05-01T18:30:00Z"
+  },
+  "__v": 0
+}]

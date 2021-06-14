@@ -1,0 +1,59 @@
+[{
+  "_id": {
+    "$oid": "60c5fe5e4a7e60759fb2bcbf"
+  },
+  "name": "Egor Hotel",
+  "price": 7999,
+  "city": "Delhi",
+  "country": "India",
+  "bannerImage": "https://images.unsplash.com/flagged/photo-1556438758-8d49568ce18e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1353&q=80",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5ff204a7e60759fb2bcc0"
+  },
+  "name": "Vincent Hotel",
+  "price": 8899,
+  "city": "Banglore",
+  "country": "India",
+  "bannerImage": "https://images.unsplash.com/photo-1578898887932-dce23a595ad4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c5ff934a7e60759fb2bcc1"
+  },
+  "name": "Hathway Hotel",
+  "price": 9900,
+  "city": "Hyderabad",
+  "country": "India",
+  "bannerImage": "https://images.unsplash.com/photo-1567899482751-c8647fda8155?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c670b44a7e60759fb2bcc2"
+  },
+  "name": "Skyline Hotel",
+  "price": 6990,
+  "city": "Chennai",
+  "bannerImage": "https://images.unsplash.com/photo-1519710889408-a67e1c7e0452?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80"
+},{
+  "_id": {
+    "$oid": "60c671f981e412f3e603f263"
+  },
+  "name": "Taj Hotel",
+  "price": 10995,
+  "city": "Mumbai",
+  "country": "India",
+  "bannerImage": "https://images.unsplash.com/photo-1528908929486-dfaa209c6986?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c6735281e412f3e603f264"
+  },
+  "name": "Oberoi Hotel",
+  "price": 11990,
+  "city": "Mumbai",
+  "country": "India",
+  "bannerImage": "https://images.unsplash.com/photo-1576354302919-96748cb8299e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=584&q=80",
+  "__v": 0
+}]

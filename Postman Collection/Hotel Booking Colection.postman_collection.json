@@ -1,0 +1,231 @@
+{
+	"info": {
+		"_postman_id": "58fff257-50f8-40a2-a98c-3554bba4d26a",
+		"name": "Hotel Booking Colection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "POST Request",
+			"item": [
+				{
+					"name": "Taj Hotel Added",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\" : \"Taj Hotel\",\n    \"price\" : 10995,\n    \"city\" : \"Mumbai\",\n    \"country\" : \"India\",\n    \"bannerImage\" : \"https://images.unsplash.com/photo-1528908929486-dfaa209c6986?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/hotels/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"hotels",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Oberoi Hotel Added",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\" : \"Oberoi Hotel\",\n    \"price\" : 11990,\n    \"city\": \"Mumbai\",\n    \"country\" : \"India\",\n    \"bannerImage\" : \"https://images.unsplash.com/photo-1576354302919-96748cb8299e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=584&q=80\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/hotels/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"hotels",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Saurabh Added",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"username\" : \"Saurabh\",\n    \"password\" : \"Srivastav\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/users/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Gaurav Added",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"username\" : \"Gaurav\",\n    \"password\" : \"gaurav\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/users/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "bookedBy Gaurav",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"hotel\": \"60c671f981e412f3e603f263\",\n    \"bookedBy\": \"60c6761e81e412f3e603f266\",\n    \"bookedOn\": \"2020-10-21T18:30:00.000Z\"\n\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/bookings/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"bookings",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "GET Request",
+			"item": [
+				{
+					"name": "Gaurav's Bookings",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/bookings/60c6761e81e412f3e603f266",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"bookings",
+								"60c6761e81e412f3e603f266"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Saurabh's Bookings",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/bookings/60c6753881e412f3e603f265",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"bookings",
+								"60c6753881e412f3e603f265"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Show Users",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8080/users/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
